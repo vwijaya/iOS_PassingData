@@ -21,6 +21,7 @@
 		09C8208F19348B6F00B8E008 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09C8207119348B6F00B8E008 /* UIKit.framework */; };
 		09C8209719348B6F00B8E008 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 09C8209519348B6F00B8E008 /* InfoPlist.strings */; };
 		09C8209919348B6F00B8E008 /* Passing_DataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C8209819348B6F00B8E008 /* Passing_DataTests.m */; };
+		09C820A419348C0D00B8E008 /* VWDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C820A319348C0D00B8E008 /* VWDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		09C8209419348B6F00B8E008 /* Passing DataTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Passing DataTests-Info.plist"; sourceTree = "<group>"; };
 		09C8209619348B6F00B8E008 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		09C8209819348B6F00B8E008 /* Passing_DataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Passing_DataTests.m; sourceTree = "<group>"; };
+		09C820A219348C0D00B8E008 /* VWDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VWDetailViewController.h; sourceTree = "<group>"; };
+		09C820A319348C0D00B8E008 /* VWDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VWDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				09C8207C19348B6F00B8E008 /* VWAppDelegate.h */,
 				09C8207D19348B6F00B8E008 /* VWAppDelegate.m */,
 				09C8207F19348B6F00B8E008 /* Main.storyboard */,
+				09C820A219348C0D00B8E008 /* VWDetailViewController.h */,
+				09C820A319348C0D00B8E008 /* VWDetailViewController.m */,
 				09C8208219348B6F00B8E008 /* VWViewController.h */,
 				09C8208319348B6F00B8E008 /* VWViewController.m */,
 				09C8208519348B6F00B8E008 /* Images.xcassets */,
@@ -252,6 +257,7 @@
 			files = (
 				09C8208419348B6F00B8E008 /* VWViewController.m in Sources */,
 				09C8207A19348B6F00B8E008 /* main.m in Sources */,
+				09C820A419348C0D00B8E008 /* VWDetailViewController.m in Sources */,
 				09C8207E19348B6F00B8E008 /* VWAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

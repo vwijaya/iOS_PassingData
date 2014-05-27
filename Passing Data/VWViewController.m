@@ -7,6 +7,7 @@
 //
 
 #import "VWViewController.h"
+#import "VWDetailViewController.h"
 
 @interface VWViewController ()
 
@@ -18,6 +19,18 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+}
+
+- (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if([sender isKindOfClass:[UIButton class]]) {
+        if([segue.destinationViewController isKindOfClass:[VWDetailViewController class]]) {
+            
+            VWDetailViewController *detailVC = segue.destinationViewController;
+            detailVC.informationFromTextField = self.textField.text;
+            
+        }
+    }
 }
 
 - (void)didReceiveMemoryWarning

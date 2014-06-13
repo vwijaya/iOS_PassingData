@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BF35E8F8-CBDD-4D41-8081-0A8280EAC226</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Passing Data</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>84A4767D-4036-4923-A595-090B4C9ACD6B</key>
+		<string>https://github.com/vwijaya/iOS_PassingData.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Passing Data.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>84A4767D-4036-4923-A595-090B4C9ACD6B</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/vwijaya/iOS_PassingData.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>84A4767D-4036-4923-A595-090B4C9ACD6B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>84A4767D-4036-4923-A595-090B4C9ACD6B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Passing Data</string>
+		</dict>
+	</array>
+</dict>
+</plist>

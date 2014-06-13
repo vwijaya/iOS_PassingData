@@ -28,7 +28,7 @@
             
             VWDetailViewController *detailVC = segue.destinationViewController;
             detailVC.informationFromTextField = self.textField.text;
-            
+            detailVC.delegate = self;
         }
     }
 }
@@ -37,6 +37,13 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+#pragma mark - VWDetailViewControllerDelegate
+
+-(void) didUpdateText:(NSString *) text
+{
+    self.textField.text = text;
 }
 
 @end

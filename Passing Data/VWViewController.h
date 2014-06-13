@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "VWDetailViewController.h"
 
-@interface VWViewController : UIViewController
+@interface VWViewController : UIViewController <VWDetailViewControllerDelegate>
 
 @property (strong, nonatomic) IBOutlet UITextField *textField;
+
 
 @end
